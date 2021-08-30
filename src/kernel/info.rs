@@ -6,7 +6,7 @@ pub struct KernelInfo {
 	pub current_info: Vec<String>,
 	uname_output: IntoIter<Vec<String>>,
 }
-
+// 实现结构体
 impl KernelInfo {
 	/**
 	 * Create a new kernel info instance.
